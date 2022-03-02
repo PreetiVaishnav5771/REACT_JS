@@ -7,9 +7,6 @@ import reportWebVitals from './reportWebVitals';
 
 //.......JSX............//
 
-const name = "Preeti Vaishnav";
-const element = <h1>Hello, {name}</h1>;
-
 ReactDOM.render(
   element, 
   document.getElementById("app")
@@ -22,13 +19,7 @@ class Car extends React.Component {
     super(props);
     this.state = {brand: "Ford"};
   }
-  render() {
-    return (
-      <div>
-        <h1>My Car</h1>
-      </div>
-    );
-  }
+  
 }
 
 //........Props..............//
@@ -36,11 +27,8 @@ class Car extends React.Component {
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-function Car(props) {
-  return <h2>I am a { props.brand }!</h2>;
-}
 
-const myelement = <Car brand="Ford" />;
+
 
 ReactDOM.render(myelement, document.getElementById('root'));
 //............Class components..........//
@@ -48,11 +36,7 @@ ReactDOM.render(myelement, document.getElementById('root'));
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-class Car extends React.Component {
-  render() {
-    return <h2>Hi, I am a Car!</h2>;
-  }
-}
+
 
 ReactDOM.render(<Car />, document.getElementById('root'));
 
@@ -61,13 +45,11 @@ ReactDOM.render(<Car />, document.getElementById('root'));
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-function Car() {
-  return <h2>Hi, I am a Car!</h2>;
-}
+
 
 ReactDOM.render(<Car />, document.getElementById('root'));
 
-//..............Virtual DOM.....................//
+
 
 
 reportWebVitals();

@@ -1,25 +1,47 @@
 import logo from './logo.svg';
 import './App.css';
+import helloworld from './helloworld';
+import mycar from './mycar';
+import Brand from './Brand';
+import Carname from './Carname';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <helloworld/>
     </div>
   );
+}
+
+render = () => {
+  return (
+    <div>
+      <h1>My Car</h1>
+    </div>
+  );
+}
+
+
+function Car = (props) => {
+  return 
+  <div>
+  <h2>I am a { props.brand }!</h2>;
+  </div>
+  const myelement = <Car brand="Ford" />;
+}
+
+class Car extends React.Component {
+  render() {
+    return 
+    <h2>Hi, I am a Car!</h2>;
+  }
+}
+
+const Car= () => {
+  return 
+  <h2>
+    Hi, I am a Car!
+  </h2>;
 }
 
 export default App;
