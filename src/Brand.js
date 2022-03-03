@@ -4,4 +4,4 @@ function Car = (props) => {
     <h2>I am a { props.brand }!</h2>
     );
   }
-  export default Brand;
+  export default car;

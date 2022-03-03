@@ -4,4 +4,4 @@ class Car extends React.Component {
        <h2>Hi, I am a Car!</h2>;
     }
   }
-  export default Carname;
+  export default car;

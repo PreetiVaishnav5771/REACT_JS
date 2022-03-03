@@ -4,4 +4,4 @@ const name = "Preeti Vaishnav";{
     const element = <h1>Hello, {name}</h1>
     );
 }
-export default helloworld;
+export default name;

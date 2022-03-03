@@ -1,5 +1,5 @@
 class Car extends React.Component {
-    constructor = (props) => {
+    constructor owncar = (props) => {
       super(props);
       this.state = {brand: "Ford"};
     }
@@ -10,4 +10,4 @@ class Car extends React.Component {
       </div>
     );
   }
-  export default mycar;
+  export default owncar;
